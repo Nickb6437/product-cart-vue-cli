@@ -27,7 +27,7 @@
                 <label>Quantity:</label>
                 </div>
                 <div class="cell">
-                <input type="number" v-model.number="product.quantity">
+                <input type="number" v-model.number="quantity">
                 </div>
             </div>
             </form>
@@ -46,7 +46,7 @@ export default {
     props: ['product', 'index', 'addToCart'],
     data() {
         return {
-            quantity: 0,
+            quantity: 0 ,
         }
     },
 }
